@@ -1,4 +1,4 @@
-let myImg = document.querySelector("img")
+let myImg = document.querySelector("#image")
 myImg.addEventListener("click", function() {
     let mySrc = myImg.getAttribute("src")
     if(mySrc === "images/ballon_basket.webp"){
@@ -9,7 +9,7 @@ myImg.addEventListener("click", function() {
 })
 
 let myButton = document.querySelector("button")
-let myh1 = document.querySelector("h1")
+let myh1 = document.querySelector("h2")
 
 function setUserName(){
     let myName = prompt("Quel est votre nom ?")

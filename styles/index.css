@@ -19,15 +19,25 @@ p, li{
 }
 
 body{
-    width: 600px;
+    width: 700px;
     margin: 5px auto;
     background-color: #ffd980;
     padding: 0 20px 20px 20px; 
     border: 5px solid black;
 }
 
-img{
+#image{
     width: 600px;
     display: block;
     margin: 0 auto;
+}
+
+#logo{
+    padding-top: 1rem; 
+    margin-bottom: -5rem; 
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: left;
+    border-radius: 50%;
 }
